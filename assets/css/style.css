@@ -1,0 +1,112 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus,input:focus,textarea:focus,button:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 300;
+}
+input[type="text"], input[type="email"], input[type="password"], input[type="tell"],textarea {
+    background: #f9f9f9;
+    border: none;
+    padding: 16px;
+}
+body,a {
+    font-family: 'Roboto', sans-serif;
+    font-size:15px;
+    line-height:1.7;
+    color:#000;
+    font-weight:300;
+    text-decoration:none;
+    background: #fff;
+
+}
+a:hover { text-decoration: none; }
+
+.team-bg1 {background-image:url(../img/bg1.jpg)} 
+.team-bg2{background-image:url(../img/bg2.jpg)}  
+.team-bg3{background-image:url(../img/bg3.jpg)}  
+.team-bg{
+    height:300px;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 40px;
+}
+.section-padding{
+    padding: 80px 0;
+}
+.section-title {
+    position: relative;
+    text-transform: uppercase;
+    font-size: 42px;
+    transform: rotate(-90deg);
+    margin-top: 124px;
+    text-align: right;
+    font-weight: 400;
+    width: 300px;
+    margin-left: -44px;
+}
+
+h2.section-title {
+    /* font-size: 36px; */
+}
+
+.section-title:before {
+    position: absolute;
+    right: 0;
+    width: 45%;
+    top: -14px;
+    height: 1px;
+    content: '';
+    background: #000;
+}
+.border-content {
+    border: 1px solid #333;
+    text-align: center;
+    letter-spacing: 2px;
+    padding-bottom: 25px;
+    font-size: 23px;
+    text-transform: uppercase;
+}
+.team-title h3 {
+    font-size: 30px;
+    background: #fff;
+    display: inline-block;
+}
+
+
+
+.team-title {
+    margin-top: -16px;
+    /* padding: 0px 27px; */
+}
+
+.border-content h3 {
+    padding: 0px 10px;
+    font-weight: 400;
+    margin-bottom: 6px;
+}
+.col-md-4:nth-child(2)
+ .single-team-member {
+    margin-top: 110px;
+}
